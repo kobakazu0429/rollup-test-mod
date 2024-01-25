@@ -1,0 +1,20 @@
+{
+  "name": "rollup-test-mod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/kobakazu0429/rollup-test-mod.git",
+  "author": "kobakazu0429 <kobakazu10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "mod-b": "https://github.com/kobakazu0429/rollup-test-mod-b.git",
+    "mod-c": "https://github.com/kobakazu0429/rollup-test-mod-c.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.6"
+  }
+}
